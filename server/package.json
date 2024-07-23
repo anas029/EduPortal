@@ -1,0 +1,13 @@
+{
+  "name": "EduPortal - server",
+  "version": "1.0.0",
+  "description": "EduPortal is an application designed to help students, instructors, and administrators manage various aspects of academic life including registration, homework assignments, projects, and more.",
+  "main": "./dist/server.js",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json src/server.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "anas029",
+  "license": "ISC"
+}
